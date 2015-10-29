@@ -16,10 +16,10 @@ public class playActivity extends AppCompatActivity {
         setContentView(R.layout.activity_play);
 
         btnPlay = (ImageView) findViewById(R.id.play_Music);
-        buttonTest();
+        switchButton();
     }
 
-    public void buttonTest() {
+    public void switchButton(){
         btnPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

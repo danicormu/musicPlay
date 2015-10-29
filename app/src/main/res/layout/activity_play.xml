@@ -17,33 +17,30 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         >
-    <!--    <at.markushi.ui.CircleButton
-            android:id="@+id/BtnStop"
-            android:onClick="stopTrace"
-            android:layout_width="@dimen/little_button"
-            android:layout_height="@dimen/little_button"
-            android:src="@drawable/ic_stop"
+        <at.markushi.ui.CircleButton
+            android:id="@+id/btn_previous"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:src="@mipmap/ic_previous_track"
+            app:cb_color="#3F51B5"
+            app:cb_pressedRingWidth="4dp"
             android:layout_centerVertical="true"
-            android:layout_toLeftOf="@+id/btnPlayER"
-            android:layout_toStartOf="@+id/btnPlayER"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="right|bottom"
-            app:cb_color="#00994C"
-            app:cb_pressedRingWidth="4dp"/> -->
-     <!--   <at.markushi.ui.CircleButton
-            android:id="@+id/imageSee"
-            android:onClick="seeRoute"
-            android:layout_width="@dimen/little_button"
-            android:layout_height="@dimen/little_button"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/ic_go_end"
-            android:layout_gravity="right|bottom"
-            android:layout_alignTop="@+id/BtnStop"
-            android:layout_toRightOf="@+id/btnPlayER"
-            android:layout_toEndOf="@+id/btnPlayER"
-            android:layout_marginTop="10dp"
-            app:cb_color="#00994C"
-            app:cb_pressedRingWidth="4dp"/> -->
+            android:layout_toLeftOf="@+id/play_Music"
+            android:layout_toStartOf="@+id/play_Music"
+            android:layout_marginRight="10dp" />
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/btn_next"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:src="@mipmap/ic_next_track"
+            app:cb_color="#3F51B5"
+            app:cb_pressedRingWidth="4dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/play_Music"
+            android:layout_toEndOf="@+id/play_Music"
+            android:layout_marginLeft="10dp" />
+
         <at.markushi.ui.CircleButton
             android:id="@+id/play_Music"
             android:layout_width="100dip"
